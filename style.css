@@ -120,9 +120,7 @@ nav {
   border-right: solid 1px;
 }
 
-#conForm {
-  width: 130%;
-}
+
 
 
 
@@ -185,5 +183,28 @@ label {
   border-radius: 90%;
 }
 
+.depth {
+  display: block;
+  border: 1px solid silver;
+  background: linear-gradient(#eee, #fff);
+  transition: all 0.3s ease-out;
+  padding: 5px;
+  color: #555;
+}
 
-
+.depth:focus, .depth:active {
+  
+  background-position: 0 -3.3em;
+  
+}
+.msgBox {
+display: block;
+  border: 1px solid silver;
+  background: linear-gradient(#eee, #fff);
+  transition: all 0.3s ease-out;
+  padding: 5px;
+  color: #555;
+}
+.msgBox:focus {
+  background-position: 0 -11.7em;
+}
