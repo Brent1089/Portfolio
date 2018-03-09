@@ -1,6 +1,7 @@
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body style="background-color: #6b6767">
-
+  <div id="bioStart"></div>
 <!-- TOP NAVBAR START -->
 
   <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
@@ -14,13 +15,13 @@
     </div>
     <div class="navbar-collapse collapse" id="collapsingNavbar">
       <ul class="navbar-nav navbar-right ml-auto">
-        <li class="nav-item active expandMenu">
+        <li class="nav-item active expandMenu" id="bioButton">
           <a class="nav-link" href="#">Bio</a>
         </li>
-        <li class="nav-item active expandMenu">
+        <li class="nav-item active expandMenu" id="portButton">
           <a class="nav-link" href="#">Portfolio</a>
         </li>
-        <li class="nav-item active expandMenu">
+        <li class="nav-item active expandMenu" id="contactButton">
           <a class="nav-link" href="#">Contact</a>
         </li>
       </ul>
@@ -34,15 +35,16 @@
 
 <!-- SECTION ONE BEGIN -->
 
-      <div class="col-xs-12 noTopMargin pageSection pageBorder " style="background-color: #b3b3b3;">
+      <div class="col-xs-12 noTopMargin pageSection pageBorder " style="background-color: #b3b3b3;" id="bioStart">
         <div class="row bioCenter">
           <div class="col-xs-6">
             <h3 class="bioDescrip">Student currently learning front and back end development with aspirations of working in the field.</h3>
             <hr class="bioLine"></hr>
-            <h3 class="bioDescrip2">HTML5 - Javascript - C#</h3>
+            <h3 class="bioDescrip2">HTML - CSS - Javascript - C# - Visual Basic</h3>
           </div>
           <img class="col-xs-6 bioPic" alt="Logo" src="http://img.sharetv.com/shows/characters/thumbnails/tim_and_eric_awesome_show_great_job.dr_steve_brule.jpg" style="">
         </div>
+      
       </div>
 
 <!-- SECTION ONE END -->
@@ -50,21 +52,22 @@
 <!-- SECTION TWO BEGIN -->
 
       <div class="col-xs-12 pageBorder" style="background-color: white;">
+        <div id="portStart"></div>
         <p class="contactText">These are filler images I did not design these websites</p>
         <div class="portFlex" style="margin-top: 20px; flex-wrap: wrap;">
-          <img class="portWell" src="http://qlip.in/images/YMCA-Realtor-Donation-3.jpg" alt="Logo">
-          <img class="portWell" src="http://qlip.in/images/webcaballero.jpg" alt="Logo">
+          <img class="portWell" src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.elegant-templates.com%2Fdemo%2FBizCompany%2Fshots%2FBizCompany.jpg&f=1" alt="Logo">
+          <img class="portWell" src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fdesignposts.net%2Fwp-content%2Fuploads%2F2015%2F03%2FFree-HTML-CSS-Website-Templates-2.jpg&f=1" alt="Logo">
         </div>
         <div class="portFlex" style="margin-top: 20px; flex-wrap: wrap;">
-          <img class="portWell" src="http://qlip.in/images/webmarqas.jpg" alt="Logo">
-          <img class="portWell" src="http://qlip.in/images/webbrandaxis.jpg" alt="Logo">
+          <img class="portWell" src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.templatemo.com%2Fscreenshots%2Ftemplatemo_121_simple_gray.jpg&f=1" alt="Logo">
+          <img class="portWell" src="https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fs.tmimgcdn.com%2Fscr%2F42100%2Fcivil-engineering-website-template_42111-original.jpg&f=1" alt="Logo">
         </div>
         <div class="portFlex" style="margin-top: 20px; flex-wrap: wrap;">
-          <img class="portWell" src="http://qlip.in/images/panacea1.jpg" alt="Logo">
-          <img class="portWell" src="http://qlip.in/images/webgatomalo.jpg" alt="Logo">
+          <img class="portWell" src="https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fs.tmimgcdn.com%2Fscr%2F40500%2Funiversity-website-template_40500-original.jpg&f=1" alt="Logo">
+          <img class="portWell" src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.templatepinboard.com%2Fwp-content%2Fuploads%2F2013%2F02%2Fbusiness-website-template.jpg&f=1" alt="Logo">
         </div>
         <hr></hr>
-        <h1 class="contactText" style="font-size: 32px;"><strong>Contact Me</strong></h1>
+        <h1 class="contactText" style="font-size: 32px;" id="contactStart"><strong>Contact Me</strong></h1>
         <hr class="bioLine" style="width: 50%;" class="mt-3 mb-5"></hr>
       </div>
 
@@ -73,7 +76,7 @@
       <div class="col-xs-12 pageSection pageBorder" style="background-color: white;">
         <div class="row">
           <div class="col-xs-12 contactForm">
-            <h3 class="contactText" id="contactMessage"> please feel free asdasdasdasdasdto contact me with any asdlkfnasdkljhf asdfasdf asdfa sdfasdfasdfa sdf asd f</h3>
+            <h3 class="contactText" id="contactMessage" style="font-size: 28px;"> Please feel free to contact me for more information or employment opportunities and I will get back to you as soon as possible. Also, consider visiting my various social media sites below.</h3>
           </div>
         </div>
         <div class="card" id="card">
@@ -83,28 +86,28 @@
                 <label for="name" class="">Name</label>
                 <div class="row mb-1">
                   <div class="col-xs-12">
-                    <input type="text" name="name" id="name" class="form-control">
+                    <input tabindex="1" type="text" name="name" id="name" class="depth form-control">
                   </div>
                 </div>
                 <label for="name" class="">E-mail Address</label>
                 <div class="row mb-0">
                   <div class="col-xs-12">
-                    <input type="text" name="email" id="e-mail" class="form-control">
+                    <input type="text" name="email" id="e-mail" class="depth form-control">
                   </div>
                 </div>
                 <label for="name" class="">Phone Number</label>
                 <div class="row mb-0">
                   <div class="col-xs-12">
-                    <input type="text" name="phone" id="phone" class="form-control">
+                    <input type="text" name="phone" id="phone" class="depth form-control">
                   </div>
                 </div>
                 <label for="name" class="">Message</label>
                 <div class="row mb-1">
                   <div class="col-lg-12">
-                    <textarea rows="6" name="message" id="message" class="form-control" required="" cols="50"></textarea>
+                    <textarea rows="6" name="message" id="message" class="msgBox form-control" required="" cols="50" id="msgBox"></textarea>
                   </div>
                 </div>
-                <button type="submit" class="btn btn-secondary btn-lg float-right">Send Message</button>
+                <button type="submit" class="btn btn-secondary btn-lg float-right" style="">Send Message</button>
               </fieldset>
             </form>
           </div>
@@ -121,7 +124,7 @@
 
   <div class="bottomBar" id="bottomBar1">
     <a href="http://www.twitter.com/" class="fa fa-twitter" style="text-decoration: none; font-size:38px; color: #00aced;"></a>
-    <a href="http://www.github.com/" class="fa fa-github socialLinks" style="text-decoration: none; font-size:38px; color: black;"></a>
+    <a href="https://github.com/Brent1089" class="fa fa-github socialLinks" style="text-decoration: none; font-size:38px; color: black;"></a>
     <a href="http://www.linkedin.com/" class="fa fa-linkedin socialLinks" style="text-decoration: none; font-size:38px; color: #007bb5"></a>
     <a href="http://www.reddit.com/" class="fa fa-reddit socialLinks" style="text-decoration: none; font-size:38px; color: #ff4500;"></a>
   </div>
